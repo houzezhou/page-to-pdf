@@ -82,20 +82,20 @@ async function render(_opts = {}) {
     await scrollPage(page);
   }
 
-  await page.evaluate(async() => {
-    const ele = document.querySelector('[comp-id="67"]')[0]
-    console.log(ele, 111)
-    // await ele.click();
-    // const ele2 = document.getElementsByName('el-button--primary')[2]
-    // await ele2.click();
+  // await page.evaluate(async() => {
+  //   const ele = document.querySelector('[comp-id="67"]')[0]
+  //   console.log(ele, 111)
+  //   // await ele.click();
+  //   // const ele2 = document.getElementsByName('el-button--primary')[2]
+  //   // await ele2.click();
 
-    // const modal = document.querySelector('.custom-modal');
+  //   // const modal = document.querySelector('.custom-modal');
 
-    // // 确保弹框在 PDF 中居中且不遮挡内容
-    // modal.style.position = 'static';
-    // modal.style.margin = '20px auto';
-    // modal.style.boxShadow = 'none';
-  });
+  //   // // 确保弹框在 PDF 中居中且不遮挡内容
+  //   // modal.style.position = 'static';
+  //   // modal.style.margin = '20px auto';
+  //   // modal.style.boxShadow = 'none';
+  // });
 
   if (opts.waitFor) {
     if (typeof opts.waitFor === 'string') {
