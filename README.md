@@ -1,4 +1,4 @@
-# my-url-to-pdf-api
+# page-to-pdf
 
 ## PM2：
 
@@ -11,7 +11,7 @@ pm2 start pm2.config.js
 
 2.生产环境启动：
 ```bash
-pm2 start ecosystem.config.js --env production
+pm2 start pm2.config.js --env production
 ```
 
 3. 其他
@@ -23,13 +23,13 @@ pm2 status
 pm2 logs
 
 # 重启应用
-pm2 restart url-to-pdf-api
+pm2 restart page-to-pdf
 
 # 停止应用
-pm2 stop url-to-pdf-api
+pm2 stop page-to-pdf
 
 # 删除应用
-pm2 delete url-to-pdf-api
+pm2 delete page-to-pdf
 
 # 监控
 pm2 monit
