@@ -1,0 +1,23 @@
+.DS_Store
+node_modules
+.npm
+/dist
+pm2_logs
+logs
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
